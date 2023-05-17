@@ -9,6 +9,10 @@ body {
   border-radius: 50% !important;
 }
 
+.header-all {
+  color: #ffff !important;
+  background-color: #061019;
+}
 /* 
 
   #CBF1F5 thin gray

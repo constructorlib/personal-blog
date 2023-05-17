@@ -8,27 +8,29 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function Header() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container className="justify-content-evenly">
-        <Nav>
-          <Navbar.Brand href="#">P</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Nav className="justify-content-center"></Nav>
-        </Nav>
-        <Nav className="ml-auto mr-auto">
-          <Nav.Link href="#action1">Home</Nav.Link>
-          <Nav.Link href="#action1">Experience</Nav.Link>
-          <Nav.Link href="#action1">Projects</Nav.Link>
-          <Nav.Link href="#action1">Contacts</Nav.Link>
-        </Nav>
+    <div className="header-all">
+      <Navbar expand="lg">
+        <Container className="justify-content-evenly">
+          <Nav>
+            <Navbar.Brand href="#">P</Navbar.Brand>
+            {/* <Navbar.Toggle aria-controls="navbarScroll" /> */}
+            {/* <Nav className="justify-content-center"></Nav>    */}
+          </Nav>
+          <Nav className="ml-auto mr-auto">
+            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link href="#action1">Experience</Nav.Link>
+            <Nav.Link href="#action1">Projects</Nav.Link>
+            <Nav.Link href="#action1">Contacts</Nav.Link>
+          </Nav>
 
-        <Nav>
-          <button type="button" className="btn btn-info btn-round-g">
-            =
-          </button>
-        </Nav>
-      </Container>
-    </Navbar>
+          <Nav>
+            <button type="button" className="btn btn-info btn-round-g">
+              =
+            </button>
+          </Nav>
+        </Container>
+      </Navbar>
+    </div>
   );
 }
 
