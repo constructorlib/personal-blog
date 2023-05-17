@@ -10,8 +10,14 @@ body {
 }
 
 .header-all {
-  color: #ffff !important;
+  color: #ffff;
   background-color: #061019;
+}
+.nav-link {
+  color: #ffe2e2;
+}
+.navbar-brand {
+  color: #ffe2e2;
 }
 /* 
 
