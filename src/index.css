@@ -1,5 +1,6 @@
 body {
   background-color: #cbf1f5;
+  /* color: #f6f6f6; */
 }
 .body-container {
   display: flex;
@@ -11,16 +12,19 @@ body {
 
 .header-all {
   color: #ffff;
-  background-color: #061019;
+  /* background-color: #112d4e; */
+  background-image: linear-gradient(#112d4e, #0f4c75);
+  /* background-image: linear-gradient(#dcd6f7, #a6b1e1, #424874); */
 }
 .nav-link {
-  color: #ffe2e2;
+  color: #f6f6f6;
 }
 .navbar-brand {
-  color: #ffe2e2;
+  color: #f6f6f6;
 }
 /* 
 
   #CBF1F5 thin gray
   #FFE2E2 pink creme
+  #112D4E some blue
 */
