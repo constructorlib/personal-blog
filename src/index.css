@@ -1,6 +1,14 @@
 body {
   background-color: #cbf1f5;
 }
+.body-container {
+  display: flex;
+  flex-direction: row !important;
+}
+.btn-round-g {
+  border-radius: 50% !important;
+}
+
 /* 
 
   #CBF1F5 thin gray
