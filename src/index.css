@@ -22,6 +22,9 @@ body {
 .navbar-brand {
   color: #f6f6f6;
 }
+.centered-col {
+  margin: auto;
+}
 /* 
 
   #CBF1F5 thin gray

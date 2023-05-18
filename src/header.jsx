@@ -4,11 +4,15 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 // import { FaIcon } from "react-icons/fa";
 
 function Header() {
   return (
     <div className="header-all">
+      <br />
       <Navbar expand="lg">
         <Container className="justify-content-evenly">
           <Nav>
@@ -30,6 +34,18 @@ function Header() {
           </Nav>
         </Container>
       </Navbar>
+      <br />
+      <Container>
+        <Row className="centered-col" style={{ width: "60%" }}>
+          <Col style={{ textAlign: "center" }}>
+            <h3>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reiciendis iste debitis, enim illum rerum consectetur unde
+              voluptas.
+            </h3>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
