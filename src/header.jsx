@@ -38,11 +38,17 @@ function Header() {
       <Container>
         <Row className="centered-col" style={{ width: "60%" }}>
           <Col style={{ textAlign: "center" }}>
-            <h3>
+            <h3 style={{ fontWeight: "900" }}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Reiciendis iste debitis, enim illum rerum consectetur unde
               voluptas.
             </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur, esse. Lorem ipsum dolor sit amet. Lorem ipsum dolor,
+              sit amet consectetur adipisicing elit. Tenetur porro eligendi
+              voluptates enim ut?
+            </p>
           </Col>
         </Row>
       </Container>
