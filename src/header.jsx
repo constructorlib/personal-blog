@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { useEffect } from "react";
 
 // import { FaIcon } from "react-icons/fa";
 
@@ -38,7 +39,7 @@ function Header() {
       <Container>
         <Row className="centered-col" style={{ width: "60%" }}>
           <Col style={{ textAlign: "center" }}>
-            <h3 style={{ fontWeight: "900" }}>
+            <h3 style={{ fontWeight: "900" }} className="typewriter-text">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Reiciendis iste debitis, enim illum rerum consectetur unde
               voluptas.

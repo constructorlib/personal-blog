@@ -1,7 +1,5 @@
 body {
   background-color: #cbf1f5;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-family: "Rubik", sans-serif;
   /* color: #f6f6f6; */
 }
 .body-container {
@@ -29,6 +27,19 @@ body {
 .centered-col {
   margin: auto;
 }
+h3 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 /* 
 
   #CBF1F5 thin gray
