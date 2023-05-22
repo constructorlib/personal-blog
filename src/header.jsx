@@ -7,8 +7,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useEffect } from "react";
-
-// import { FaIcon } from "react-icons/fa";
+// import { DiReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 
 function Header() {
   return (
@@ -17,7 +17,9 @@ function Header() {
       <Navbar expand="lg">
         <Container className="justify-content-evenly">
           <Nav>
-            <Navbar.Brand href="#">P</Navbar.Brand>
+            <Navbar.Brand href="#">
+              <FaReact className="react-icon" />
+            </Navbar.Brand>
             {/* <Navbar.Toggle aria-controls="navbarScroll" /> */}
             {/* <Nav className="justify-content-center"></Nav>    */}
           </Nav>
@@ -41,17 +43,15 @@ function Header() {
           <Col style={{ textAlign: "center" }}>
             <h3 style={{ fontWeight: "900" }} className="typewriter-text">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Reiciendis iste debitis, enim illum rerum consectetur unde
-              voluptas.
+              Reiciendis iste debitis, enim illum.
             </h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Consequatur, esse. Lorem ipsum dolor sit amet. Lorem ipsum dolor,
-              sit amet consectetur adipisicing elit. Tenetur porro eligendi
-              voluptates enim ut?
+              Consequatur, esse. Lorem ipsum dolor sit amet.
             </p>
           </Col>
         </Row>
+        <br /> <br />
       </Container>
     </div>
   );

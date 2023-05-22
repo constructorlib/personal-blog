@@ -1,6 +1,5 @@
 body {
   background-color: #cbf1f5;
-  /* color: #f6f6f6; */
 }
 .body-container {
   display: flex;
@@ -12,12 +11,10 @@ body {
 
 .header-all {
   color: #ffff;
-  /* background-color: #112d4e; */
-  /* background-image: ; */
-  background-image: url(https://www.pngkit.com/png/full/34-344191_connecting-dots-triangle.png),
-    linear-gradient(#112d4e, #0f4c75);
-  /* background-image: linear-gradient(#dcd6f7, #a6b1e1, #424874); */
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"),
+    linear-gradient(#5f2c82, #49a09d);
 }
+
 .nav-link {
   color: #f6f6f6;
 }
@@ -31,15 +28,21 @@ h3 {
   font-family: "Montserrat Alternates", sans-serif;
   font-family: "Rubik", sans-serif;
 }
-@keyframes typewriter {
+h3.typewriter-text {
+  font-size: 40px;
+}
+.react-icon {
+  font-size: 40px;
+  animation: rotation 10s infinite linear;
+}
+@keyframes rotation {
   from {
-    width: 0;
+    transform: rotate(0deg);
   }
   to {
-    width: 100%;
+    transform: rotate(360deg);
   }
 }
-
 /* 
 
   #CBF1F5 thin gray
