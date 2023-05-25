@@ -43,6 +43,11 @@ h3.typewriter-text {
     transform: rotate(360deg);
   }
 }
+
+/* Main TOP */
+.cardMain {
+  height: 230px;
+}
 /* 
 
   #CBF1F5 thin gray
