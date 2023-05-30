@@ -1,24 +1,33 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col } from "react-bootstrap";
+
 function MainTop() {
   return (
-    <>
-      <Container>
-        <Row>
+    <Container fluid>
+      <Row className="image-row">
+        <div className="image-container">
           <Col className="cardMain">
-            1
-            <img src="./images/books.jpg" alt="" />
+            <img src="src/images/books.jpg" alt="" />
           </Col>
-          <Col className="cardMain">2</Col>
-          <Col className="cardMain">3</Col>
-          <Col className="cardMain">4</Col>
-          <Col className="cardMain">5</Col>
-          <Col className="cardMain">6</Col>
-        </Row>
-      </Container>
-    </>
+          <Col className="cardMain">
+            <img src="src/images/cards.jpg" alt="" />
+          </Col>
+          <Col className="cardMain">
+            <img src="src/images/books.jpg" alt="" />
+          </Col>
+          <Col className="cardMain">
+            <img src="src/images/cards.jpg" alt="" />
+          </Col>
+          <Col className="cardMain">
+            <img src="src/images/books.jpg" alt="" />
+          </Col>
+          <Col className="cardMain">
+            <img src="src/images/cards.jpg" alt="" />
+          </Col>
+        </div>
+      </Row>
+    </Container>
   );
 }
+
 export default MainTop;
