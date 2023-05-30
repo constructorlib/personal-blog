@@ -45,9 +45,55 @@ h3.typewriter-text {
 }
 
 /* Main TOP */
-.cardMain {
-  height: 230px;
+/* .cardMain img {
+  height: 240px;
+  width: 100%;
+  display: inline-block;
+  animation: moveImages 10s linear infinite;
 }
+@keyframes moveImages {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.cardMain {
+  float: left;
+  width: 33%;
+  padding: 0 5px;
+}
+.rowImp {
+  white-space: nowrap;
+  overflow: hidden;
+} */
+
+.image-row {
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  animation: moveImages 15s linear infinite;
+  animation-direction: alternate;
+  width: fit-content;
+}
+
+.image-container img {
+  width: 100%;
+  height: 240px;
+}
+
+@keyframes moveImages {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 /* 
 
   #CBF1F5 thin gray
