@@ -9,7 +9,7 @@ function MainTop() {
         <Row>
           <Col className="cardMain">
             1
-            <img src="images/books.jpg" alt="" />
+            <img src="./images/books.jpg" alt="" />
           </Col>
           <Col className="cardMain">2</Col>
           <Col className="cardMain">3</Col>
